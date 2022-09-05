@@ -1,0 +1,7 @@
+http.host: 192.168.1.191
+log.level: debug
+node.name: "local-elklab"
+path.data: /var/lib/logstash
+path.logs: /var/log/logstash
+pipeline.ecs_compatibility: v1
+pipeline.separate_logs: true
