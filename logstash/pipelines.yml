@@ -18,3 +18,8 @@
   path.config: "/etc/logstash/conf.d/downstream/*.*"
   pipeline.workers: 2
   queue.type: persisted
+
+- pipeline.id: zscaler
+  path.config: "/etc/logstash/conf.d/zscaler/*.conf"
+  pipeline.workers: 2
+  queue.type: persisted
